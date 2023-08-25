@@ -1,0 +1,392 @@
+*{
+    margin:0;
+    border: border-box;
+    font-family: Sodo Snas,Lander,Pike,Arial, Helvetica, sans-serif;
+}
+header{
+    box-shadow: 3px 54px 34px -25px rgba(117,117,117,1);
+}
+.navbar{
+    display: flex;
+    height: 72px;
+    width:1000;
+    padding: 0px 80px;
+}
+.nav-cont{
+    height: 72px;
+    width: 10000px;
+    display: flex;
+}
+.nav-details{
+    height:72px;
+    width:414px;
+    display: flex;
+}
+.home{
+    justify-content: center;
+    height: 72px;
+    width: 104px;
+    display: flex;
+    color:#212529;
+}
+.home h3{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 8px 0px;
+}
+.home h3:hover{
+    text-decoration:#1e3932 underline;
+    cursor: pointer;
+}
+.ic{
+    display: flex;
+    height:72px;
+    width:80px;
+    justify-content: center;
+}
+.ic-cont{
+    margin-top: 12px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    background-image: url(starbucks-logo-png-1680.png);
+    background-size: cover;
+}
+.space-nav{
+    height: 72px;
+    width: 414px;
+}
+.search-nav{
+    height: 72px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.search-box{
+    -webkit-box-shadow: 19px 20px 38px -5px rgba(87,87,87,1);
+    -moz-box-shadow: 19px 20px 38px -5px rgba(87,87,87,1);
+    box-shadow: 19px 20px 38px -5px rgba(87,87,87,1);
+    margin-top: 15px;
+    height: 36px;
+    width:264px;
+    background-color: transparent;
+    display: flex;
+    border-radius: 2.15rem;
+    border-top-right-radius: 0.15rem;
+    border-bottom-right-radius: 0.15rem;
+    box-shadow: 0 0 2px;
+    border: none;
+}
+.search-box input{
+    width:100%;
+    border:none;
+}
+.search-box i{
+    font-size: 1.3rem;
+    margin-top: 8px;
+}
+.user{
+    margin-top: 6px;
+    display: flex;
+    height:42px;
+    width:40px;
+    justify-content: center;
+    border-radius: 75%;
+    border: 2px solid grey;
+    box-shadow: 19px 38px 22px -25px rgba(87,87,87,1);
+}
+.user-ic{
+    margin-top: 10px;
+    font-size:1.4rem;
+    margin-right: 3px;
+    color: grey;
+}
+.blank-space{
+    height: 90px;
+    width:1000;
+    background-color: #1e3932;
+    -webkit-box-shadow: 3px 41px 35px -32px rgba(117,117,117,1);
+    -moz-box-shadow: 3px 41px 35px -32px rgba(117,117,117,1);
+    box-shadow: 3px 41px 35px -32px rgba(117,117,117,1);
+}
+.menu{
+    display: flex;
+    height: 210px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.handcraft{
+    margin-top: 35px;
+    height: 210px;
+    width: 100%;
+    padding: 32px 0px 16px;
+    display: flex;
+}
+.txt-craft{
+    display: flex;
+    color: #1e3932;
+    font-weight: 700;
+    margin-left: 70px;
+    font-size: 1.8rem;
+    height: 52.8px;
+    width: 960px;
+    padding: 0px 12px;
+}
+.bestseller{
+    margin-left: -560px;
+    margin-top: 60px;
+    display: flex;
+    height: 158px;
+    width: 108px;
+}
+.bestseller p{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: -98px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.best{
+    height:108px;
+    width: 108px;
+    background-image: url(Bestseller.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+.point:hover{
+    border: 2px solid #1e3932;
+    cursor:pointer
+}
+.drinks{
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    height: 158px;
+    width: 108px;
+}
+.drinks p{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: -80px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.drinkss{
+    height:108px;
+    width: 108px;
+    background-image: url(Drinks.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+.food{
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    height: 158px;
+    width: 108px;
+}
+.food p{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: -80px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.foodd{
+    height:108px;
+    width: 108px;
+    background-image: url(Food.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+.mer{
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    height: 158px;
+    width: 158px;
+}
+.mer p{
+    text-align: center;
+    margin-top: 130px;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.merr{
+    height:108px;
+    width: 108px;
+    background-image: url(Merchandise.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+.cof{
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    height: 158px;
+    width: 108px;
+}
+.cof p{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: -5px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.cof{
+    height:108px;
+    width: 108px;
+    background-image: url(CoffeeAtHome.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+.to{
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    height: 158px;
+    width: 108px;
+}
+.to p{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: -80px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.too{
+    height:108px;
+    width: 108px;
+    background-image: url(ReadyToEat.jpg);
+    background-size: cover;
+    border-radius:50%;
+}
+.row{
+    height: 32px;
+    width: 960px;
+}
+.card{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 140px;
+    height: 220px;
+    width: 1200px;
+    border: 1px solid grey;
+    border-radius: 1.25rem;
+}
+.card-cont{
+    border-radius: 1.25rem;
+    margin-top: 8px;
+    margin-left: 8px;
+    height: 200px;
+    width: 1200px;
+    background-color:#F9E0BB;
+    display: flex;
+}
+.card-cont:hover{
+    cursor: pointer;
+}
+.bottel-img{
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    height: 193.53px;
+    width: 100px;
+    background-image: url(Frappuccino_banner_1_4_722ac7022a.png);
+    background-size: contain;
+}
+.head-hed{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 27.08px;
+    width: 551.04px;
+}
+.main-hed{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 60px;
+    height: 36.08px;
+    width: 551.04px;
+}
+.dec-hed{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 120px;
+    height: 48.08px;
+    width: 551.04px;
+}
+.for{
+    position: absolute;
+    height:18px;
+    width: 551.04px;
+    margin-top: 160px;
+    margin-left: 120px;
+}
+.rs{
+    position: absolute;
+    height:21px;
+    width: 527.04px;
+    margin-top: 180px;
+    margin-left: 120px;
+}
+.oder{
+    margin-top: 140px;
+    margin-left: 980px;
+    position: absolute;
+    height: 49px;
+    width:200px;
+    background-color: #00754a;
+    border: none;
+    border-radius: 1.25rem;
+}
+.odd-txt{
+    font-weight: 400;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+.oder:hover{
+    cursor: pointer;
+}
+.valid{
+    margin-left: 1050px;
+    height: 16px;
+    width: 90.05px;
+    position: absolute;
+}
+.information{
+    position: absolute;
+    display: flex;
+    margin-top: 80px;
+    height:460px;
+    width: 100%;
+    background-color:rgb(182, 180, 180);
+}
+.heading{
+    margin-top: 30px;
+    margin-left: 70px;
+    height: 22.4px;
+    width: 447.5px;
+    position: absolute;
+}
+.last-img{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    border-radius: 1.25rem;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    height: 342px;
+    width:920px;
+    background-color: purple;
+}
+main-last{
+    margin-top: 170px;
+    height: 33.6px;
+    width: 920px;
+    position: absolute;
+}
